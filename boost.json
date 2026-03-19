@@ -1,0 +1,18 @@
+{
+    "agents": [
+        "cursor",
+        "claude_code",
+        "gemini",
+        "copilot"
+    ],
+    "guidelines": true,
+    "herd_mcp": false,
+    "mcp": true,
+    "nightwatch_mcp": false,
+    "sail": false,
+    "skills": [
+        "fluxui-development",
+        "livewire-development",
+        "tailwindcss-development"
+    ]
+}
