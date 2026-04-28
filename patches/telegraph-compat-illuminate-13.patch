@@ -1,0 +1,11 @@
+--- a/composer.json
++++ b/composer.json
+@@
+-        "illuminate/support": "^10.0 | ^11.0 | ^12.0",
+-        "illuminate/contracts": "^10.0 | ^11.0 | ^12.0",
++        "illuminate/support": "^8.0 || ^9.0 || ^10.0 || ^11.0 || ^12.0 || ^13.0",
++        "illuminate/contracts": "^8.0 || ^9.0 || ^10.0 || ^11.0 || ^12.0 || ^13.0",
+
+Notes:
+- This unified diff is a suggested change for the upstream `defstudio/telegraph` `composer.json`.
+- Depending on the exact package constraints in the upstream file the exact lines may differ; update the constraint to include `^13.0` wherever `illuminate/*` dependencies are restricted.
